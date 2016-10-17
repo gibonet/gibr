@@ -11,7 +11,7 @@ export(.data, name = NULL, fileEncoding = "CP1252", ...)
 
 \item{name}{nome del file in cui esportare (default NULL, crea un nome automaticamente sulla base della data)}
 
-\item{fileEncoding}{encoding del file (default "CP1252", per windows...)}
+\item{fileEncoding}{encoding del file (default "CP1252", per windows...). Altro valore utilizzato spesso: "UTF-8".}
 
 \item{...}{altri argomenti che si possono passare (vedi \code{utils::write.table})}
 }
