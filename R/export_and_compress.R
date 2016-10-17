@@ -5,7 +5,7 @@
 #' 
 #' @param .data oggetto da esportare (data frame)
 #' @param name nome del file in cui esportare (default NULL, crea un nome automaticamente sulla base della data)
-#' @param fileEncoding encoding del file (default "CP1252", per windows...)
+#' @param fileEncoding encoding del file (default "CP1252", per windows...). Altro valore utilizzato spesso: "UTF-8".
 #' @param ... altri argomenti che si possono passare (vedi \code{utils::write.table})
 #' 
 #' @export
