@@ -18,4 +18,3 @@ Funzione equvalente a round, tranne per l'arrotondamento di .5 all'intero più g
 Trovata su stackoverflow
 http://stackoverflow.com/questions/12688717/round-up-from-5-in-r
 }
-

@@ -18,4 +18,3 @@ Prende come argomento un vettore di classi di et\`a nel formato "(14,19]" e lo r
 cambia_forma_eta("[15,20)")
 cambia_forma_eta("(14,19]", right = TRUE)
 }
-

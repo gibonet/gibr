@@ -21,4 +21,3 @@ eta2coorti("[15,20)", anno = 2000)
 eta2coorti("[15,20)", anno = 2000, right = TRUE)
 
 }
-

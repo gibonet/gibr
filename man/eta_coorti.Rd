@@ -20,4 +20,3 @@ calcola e restituisce la classe di et\`a (ad esempio coorte (1974,1979], anno 19
 eta_coorti(coorti = "(1981-1985]", anno = 1999)
 
 }
-

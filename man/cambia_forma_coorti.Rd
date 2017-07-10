@@ -18,4 +18,3 @@ Prende come argomento un vettore di coorti nel formato "(1974,1979]" e lo restit
 cambia_forma_coorti("[1974,1979)")
 cambia_forma_coorti("(1974,1979]", right = TRUE)
 }
-

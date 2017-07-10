@@ -18,4 +18,3 @@ Operatore \%nin\% (l'opposto di \%in\%)
 1:10 \%in\% c(1,3,5,9)
 1:10 \%nin\% c(1,3,5,9)
 }
-

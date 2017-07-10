@@ -16,4 +16,3 @@ Funzione che cambia in maiuscolo la prima lettera di una stringa di testo
 first_m("pippo")
 
 }
-

@@ -18,4 +18,3 @@ export(.data, name = NULL, fileEncoding = "CP1252", ...)
 \description{
 Con ";" come separatore di colonne.
 }
-

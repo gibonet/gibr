@@ -26,4 +26,3 @@ crea_coorti(x = seq(1985, 2000, by = 1), breaks = c(1985, 1990, 1995, 2000, Inf)
 \seealso{
 \code{cut}
 }
-

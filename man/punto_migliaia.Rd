@@ -22,4 +22,3 @@ x <- runif(10) * 5000
 punto_migliaia(x)
 
 }
-
