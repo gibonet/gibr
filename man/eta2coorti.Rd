@@ -2,19 +2,19 @@
 % Please edit documentation in R/eta2coorti.R
 \name{eta2coorti}
 \alias{eta2coorti}
-\title{Trasforma una classe di et\`a in una coorte}
+\title{Trasforma una classe di età in una coorte}
 \usage{
 eta2coorti(classe_eta, anno, right = FALSE)
 }
 \arguments{
-\item{classe_eta}{vettore (character o factor) con la classe d'et\`a ("[15,20)" o "(15,20]")}
+\item{classe_eta}{vettore (character o factor) con la classe d'età ("[15,20)" o "(15,20]")}
 
-\item{anno}{anno di riferimento, che serve per dedurre l'anno di nascita dall'et\`a in anni}
+\item{anno}{anno di riferimento, che serve per dedurre l'anno di nascita dall'età in anni}
 
-\item{right}{logical (TRUE o FALSE). Indica se la classe di et\`a comprende l'estremo superior (right = TRUE) oppure no (right = FALSE, opzione di defauls)}
+\item{right}{logical (TRUE o FALSE). Indica se la classe di età comprende l'estremo superior (right = TRUE) oppure no (right = FALSE, opzione di defauls)}
 }
 \description{
-Trasforma una classe di et\`a in una coorte
+Trasforma una classe di età in una coorte
 }
 \examples{
 eta2coorti("[15,20)", anno = 2000)

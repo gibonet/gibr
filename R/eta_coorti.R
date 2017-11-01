@@ -1,7 +1,7 @@
-#' calcola e restituisce la classe di et\`a (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")
+#' Calcola e restituisce la classe di età (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")
 #' 
 #' @param coorti vettore (character o factor) tipo "(aaaa,aaaa]" che indica gli estremi della coorte in esame
-#' @param anno anno di riferimento per dedurre la classe di et\`a di una coorte
+#' @param anno anno di riferimento per dedurre la classe di età di una coorte
 #' @param right logical (TRUE o FALSE), che indica se l'intervallo comprende l'estremo superiore (default = FALSE, quindi che l'intervallo comprende il limite inferiore)
 #' 
 #' @examples 

@@ -2,19 +2,19 @@
 % Please edit documentation in R/eta_coorti.R
 \name{eta_coorti}
 \alias{eta_coorti}
-\title{calcola e restituisce la classe di et\`a (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")}
+\title{Calcola e restituisce la classe di età (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")}
 \usage{
 eta_coorti(coorti, anno, right = FALSE)
 }
 \arguments{
 \item{coorti}{vettore (character o factor) tipo "(aaaa,aaaa]" che indica gli estremi della coorte in esame}
 
-\item{anno}{anno di riferimento per dedurre la classe di et\`a di una coorte}
+\item{anno}{anno di riferimento per dedurre la classe di età di una coorte}
 
 \item{right}{logical (TRUE o FALSE), che indica se l'intervallo comprende l'estremo superiore (default = FALSE, quindi che l'intervallo comprende il limite inferiore)}
 }
 \description{
-calcola e restituisce la classe di et\`a (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")
+Calcola e restituisce la classe di età (ad esempio coorte (1974,1979], anno 1999 => eta_coorti="20-24")
 }
 \examples{
 eta_coorti(coorti = "(1981-1985]", anno = 1999)

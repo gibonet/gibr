@@ -2,7 +2,9 @@
 % Please edit documentation in R/cambia_forma_coorti.R
 \name{cambia_forma_coorti}
 \alias{cambia_forma_coorti}
-\title{Prende come argomento un vettore di coorti nel formato "(1974,1979]" e lo restituisce in formato "1975-1979" (se right = TRUE). Se right = FALSE, prende "[1974,1979)" e restituisce "1974-1978"}
+\title{Prende come argomento un vettore di coorti nel formato "(1974,1979]" e lo 
+restituisce in formato "1975-1979" (se right = TRUE). Se right = FALSE, 
+prende "[1974,1979)" e restituisce "1974-1978"}
 \usage{
 cambia_forma_coorti(coorti, right = FALSE)
 }
@@ -12,7 +14,9 @@ cambia_forma_coorti(coorti, right = FALSE)
 \item{right}{logical (TRUE o FALSE), che indica se l'intervallo comprende l'estremo superiore (default = FALSE, quindi che l'intervallo comprende il limite inferiore)}
 }
 \description{
-Prende come argomento un vettore di coorti nel formato "(1974,1979]" e lo restituisce in formato "1975-1979" (se right = TRUE). Se right = FALSE, prende "[1974,1979)" e restituisce "1974-1978"
+Prende come argomento un vettore di coorti nel formato "(1974,1979]" e lo 
+restituisce in formato "1975-1979" (se right = TRUE). Se right = FALSE, 
+prende "[1974,1979)" e restituisce "1974-1978"
 }
 \examples{
 cambia_forma_coorti("[1974,1979)")
