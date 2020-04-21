@@ -70,3 +70,43 @@ rmd_yaml_beamer <- function(){
 }
 
 
+#' @rdname rmd_yaml
+#' @export
+rmd_yaml_extarticle <- function(){
+  titolo <- "title: \"TITOLO DEL DOCUMENTO\""
+  autore <- "author: \"AUTORE\""
+  data <- "date: \"data\""
+  output <- c("output:", 
+              "  pdf_document:", 
+              "    includes:",
+              "      in_header: preambolo.tex",
+              "    number_sections: yes", 
+              "    toc: yes",
+              "    toc_depth: 4", 
+              "  bookdown::html_document2:", 
+              "    number_sections: false", 
+              "    toc: yes", 
+              "    toc_float: yes",
+              "  word_document:", 
+              "    toc: yes", 
+              "documentclass: extarticle",
+              "geometry: bottom = 1in, top = 1in, tmargin = 0.5in, bmargin = 0.75in, left = 1.7cm, right=1.7cm",
+              "header-includes:",
+              "- \\usepackage{xcolor}",
+              "- \\usepackage{booktabs}",
+              "- \\usepackage[skip=0pt]{caption}",
+              "- \\usepackage[italian]{babel}",
+              "- \\usepackage{amsmath}",
+              "- \\usepackage{float}",
+              "classoption: a4paper")
+  
+  doc <- c("---", titolo, autore, data, output, "---", "")
+  
+  x <- system.file("preambolo.tex", package = "gibr")
+  
+  # Copia il file preambolo.tex nella directory corrente
+  # (serve alla voce in_header:)
+  file.copy(from = x, to = basename(x))
+  
+  doc
+}

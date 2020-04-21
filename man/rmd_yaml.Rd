@@ -3,11 +3,14 @@
 \name{rmd_yaml}
 \alias{rmd_yaml}
 \alias{rmd_yaml_beamer}
+\alias{rmd_yaml_extarticle}
 \title{Crea un esempio di codice 'yaml' per iniziare un documento ".Rmd"}
 \usage{
 rmd_yaml()
 
 rmd_yaml_beamer()
+
+rmd_yaml_extarticle()
 }
 \value{
 un vettore character che si può esportare in un file con \code{link{writeLines}}
