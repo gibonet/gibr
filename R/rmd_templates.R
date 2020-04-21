@@ -30,6 +30,7 @@ rmd_yaml <- function(){
               "- \\usepackage[skip=0pt]{caption}",
               "- \\usepackage[italian]{babel}",
               "- \\usepackage{amsmath}",
+              "- \\usepackage{float}",
               "classoption: a4paper")
   
   doc <- c("---", titolo, autore, data, output, "---", "")
