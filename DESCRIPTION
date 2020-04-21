@@ -3,9 +3,9 @@ Title: Funzioni Varie (Senza uno Scopo Particolare)
 Description: Funzioni varie (senza uno scopo particolare). Un
     modo per salvare varie funzioni create per poi averle a
     disposizione attraverso un pacchetto.
-Version: 0.0.3
+Version: 0.0.5
 License: GPL-2
 Author: Gibo <gibo.gaf@gmail.com>
 Maintainer: Gibo <gibo.gaf@gmail.com>
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 Encoding: UTF-8
